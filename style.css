@@ -204,7 +204,7 @@ body{
 
 .iframe_area{
     width: 1050px;
-    height: 655px;
+    height: 780px;
     left: 148px;
     right: 152px;
     margin: 0 auto;
@@ -246,3 +246,108 @@ body{
 }
 
 /* iframe_area_end_here */
+
+ /* targer_area_start here */
+ .target_area{
+    width: 1050px;
+    height: 455px;
+    margin:0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .target_content{
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+ }
+ .target_content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .target_content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+ .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: px;
+    margin: 0 auto;
+ }
+ .html_box{
+    width: 348px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+    gap: 5px;
+    border: 5px solid white;
+    border-radius: 16px;
+    background-color:#fff6f4;
+
+ }
+.box_img{
+    width: 55px;
+    height: 50px;
+    margin: 24px 0px;
+    margin-bottom: 20px;
+}
+.box_h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.box_p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.box_a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+   
+}
+.color_css{
+    background-color: #f2f6fe;
+}
+.color_js{
+    background-color: #fbf9ee;
+}
+
+    
+/*targer_area_end */
