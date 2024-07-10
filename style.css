@@ -112,18 +112,21 @@ body{
 
 .web_dev_section{
     width: 1040px;
-    height: 1150px;
+    height: 1350px;
     margin: 0 auto;
     margin-top: 50px;
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    
 }
 .we_content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+
 
 }
 .we_content h2{
@@ -156,7 +159,7 @@ body{
     align-items: center;
     margin-top: 50px;
     background-color: white;
-    padding-left: 10px;
+    padding: 40px;
 
 
 }
