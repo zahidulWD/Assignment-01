@@ -369,8 +369,11 @@ body{
     margin-top: 50px;
 }
 .support_content{
-    padding: 64px 100px;
+    padding: 54px 100px;
 
+}
+.support_content form{
+    margin-left: 80px;
 }
 .support_content h1{
     color: rgb(255, 255, 255);
@@ -380,7 +383,8 @@ body{
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+
     
 }
 .support_content p{
@@ -391,30 +395,31 @@ body{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 40px;
 }
-.text_area{
-    width: 548px;
-    height: 57px;
-    text-align: center;
-    padding: 20px;
-    padding-right: 300px;
-    border-radius: 8px;
-}
-.support_btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-}
-.support_btn button{
-    width: 120px;
-    height: 58px;
-    font-family: Azeret Mono;
-    font-size: 20px;
+.support_content form input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 17px 20px;
+    width: 548px;
+    padding-right: 60px;
+}
+.support_content form button[type='submit'] {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 15px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
 }
 /* support_section_end */
 
