@@ -134,6 +134,7 @@ body{
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 20px;
 }
 .we_content p{
     color:#0D1321;
@@ -351,3 +352,106 @@ body{
 
     
 /*targer_area_end */
+
+/* support_section_start_here */
+.support_section{
+    width: 1050px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(assets/handshake.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 80px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.support_content{
+    padding: 64px 100px;
+
+}
+.support_content h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+    
+}
+.support_content p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.text_area{
+    width: 548px;
+    height: 57px;
+    text-align: center;
+    padding: 20px;
+    padding-right: 300px;
+    border-radius: 8px;
+}
+.support_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.support_btn button{
+    width: 120px;
+    height: 58px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+}
+/* support_section_end */
+
+
+/* footer_section_start_here */
+.footer_content{
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-color: #f7f8f8;
+    
+}
+.social_link li{
+    width: 36px;
+    height: 36px;
+    display: inline-block;;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    
+
+}
+.footer_content h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* footer_section_end */
+
