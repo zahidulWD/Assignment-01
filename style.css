@@ -199,3 +199,50 @@ body{
     background-color: white;
 }
 /* group_section_end */
+
+/* iframe_area_start_here */
+
+.iframe_area{
+    width: 1050px;
+    height: 655px;
+    left: 148px;
+    right: 152px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.iframe_area h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.iframe_area p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+   
+ 
+}
+.iframe_dev{
+    border: 1px solid rgb(188, 181, 181);
+    padding: 30px 30px;
+    border-radius: 16px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 30px;
+
+}
+.video{
+    border-radius: 16px;
+}
+
+/* iframe_area_end_here */
